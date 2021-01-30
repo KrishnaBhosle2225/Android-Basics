@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    android:layout_margin="20dp"
+    android:layout_centerHorizontal="true"
+    android:background="#D36464"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonDemo">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Name"
+        android:textAlignment="center"
+        android:id="@+id/fname"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Middle Name"
+        android:textAlignment="center"
+        android:id="@+id/mname"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last Name"
+        android:textAlignment="center"
+        android:id="@+id/lname"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/submit"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#DCEC84"
+        android:id="@+id/layput2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/firstTextView"
+            android:textSize="20sp"
+            android:textColor="#37FF0101"
+            android:text="First Name is : "
+            android:layout_margin="10sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/middleTextView"
+            android:textSize="20sp"
+            android:textColor="#37F30505"
+            android:text="Middle Name is : "
+            android:layout_margin="10sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/lastTextView"
+            android:textSize="20sp"
+            android:text="Last Name is : "
+            android:textColor="#37FF0101"
+            android:layout_margin="10sp"
+
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

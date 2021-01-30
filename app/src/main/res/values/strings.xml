@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ASCII Education</string>
+    <string name="absolute_layout">absolute Layout</string>
+    <string name="textview">TextView </string>
+
+
+</resources>

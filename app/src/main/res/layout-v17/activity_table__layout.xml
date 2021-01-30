@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DF7373"
+    android:shrinkColumns="*"
+    android:stretchColumns="1"
+    tools:context=".Table_Layout">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="row 1 col 1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="row 1 col 2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="row 1 col 3"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:text="Stretch view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0" />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="right"
+            android:id="@+id/textClock"
+            android:layout_column="2" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:text="First Name"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0" />
+
+        <Button
+            android:width="200px"
+            android:text="Last Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+
+</TableLayout>
